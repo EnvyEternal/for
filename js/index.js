@@ -23,7 +23,26 @@ function pow(a, b) {
   return num;
 }
 
-console.log(value())*/
+console.log(value())
+*/
 
-var x = 136;
-console.log(Math.round(x / 10) * 10);
+/*function value(){
+  let num = 1000;
+  let counter = 0
+  
+while  (num > 50) {  
+  console.log(num)
+  num = num / 2;
+  counter++
+}
+console.log("Number of division operations "+counter)
+return num;
+}
+value()*/
+function est(){
+  let x = +prompt("1")
+  console.log(Math.round((x / 10) * 10));
+}
+  return x;
+}
+est()
