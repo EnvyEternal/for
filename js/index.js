@@ -1,5 +1,7 @@
-/*let a = +prompt("1")
-let b = +prompt("2")
+//#1
+/*
+let a = Number(prompt("Enter your value"));
+let b = Number(prompt("Enter the degree"))
 function pow(a, b) {
     let result = a;
     for (let i = 1; i < b; i++) {
@@ -10,23 +12,12 @@ function pow(a, b) {
 
   }
   
-  alert(pow(a,b))*/
- 
-/*function value(a){
-    let num = 1000;
-    a = num
-  while  (num > 50) {
-    console.log(num)  
-    num = num / 2;
-    
-  }
-  return num;
-}
-
-console.log(value())
+  alert(pow(a,b))
 */
 
-/*function value(){
+//#2
+/*
+function value(){
   let num = 1000;
   let counter = 0
   
@@ -39,10 +30,12 @@ console.log("Number of division operations "+counter)
 return num;
 }
 value()*/
-function est(){
-  let x = +prompt("1")
-  console.log(Math.round((x / 10) * 10));
+
+//#3
+function value(){
+  let num = Number(prompt("Enter Value"))
+  let ans = (Math.round(num / 11) * 11);
+  alert("Your number " + ans);
 }
-  return x;
-}
-est()
+
+value()
